@@ -1334,7 +1334,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} hallo👋. Ich bin ${global.BotName}, ein Bot entwickelt von : Sebastian um Ihre WhatsApp-Nutzung auf die nächste Stufe zu bringen.
+    Konichiwa ${pushname} Hallo👋. Ich bin ${global.BotName}, ein Bot entwickelt von : Max_2 um Ihre WhatsApp-Nutzung auf die nächste Stufe zu bringen.
         
        「 System Info 」
     
@@ -1364,7 +1364,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Sebastian*
+    ©️ *${global.BotName}* All Rights Reserved by: *Max_2*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1412,6 +1412,9 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput.includes('Ohio ')|| smallinput.includes('Hi') || smallinput.includes('Moin')) {
       reply (`Yai endlich wider da *${pushname}*`);
     }      
+
+    if (smallinput.includes('Hey!') || smallinput.includes('good morning')) {
+      reply (`Hallöchen ${pushname`);
 
 switch(command) {
 
@@ -4770,9 +4773,9 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `Konichiwa *${pushname}* Senpai,
+ const helpmenu = `Hello *${pushname}* Hey,
 
-I am *Miku Nakano*, a bot developed by *Sebastian*.
+I am *Miku Nakano*, a bot developed by *Max_2*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4846,7 +4849,7 @@ reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomec
 
 
  『  *${global.BotName}*  』
- Powered by: *Sebastian*
+ Powered by: *Max_2*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
