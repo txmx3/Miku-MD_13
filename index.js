@@ -27,14 +27,14 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHallo, I am Sebastian, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Sebi127391','aqua'))
+console.log(color('\nHallo, I am Max_2, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub:txmx3 ','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Miku by: Sebastian','Safari','1.0.0'],
+        browser: ['Mika by: Max_2','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -150,9 +150,9 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 mikutext = `
-Hello @${WAuserName.split("@")[0]},
+Hey 👋 @${WAuserName.split("@")[0]},
 
-I am *Miku Nakano*, Welcome to ${metadata.subject}.
+I am *Mika Nakano*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
@@ -169,7 +169,7 @@ Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     mikutext = `
-Sayonara 👋, @${WAuserName.split("@")[0]},
+Bye! 👋, @${WAuserName.split("@")[0]},
 
 I hope you will come back soon, but we are not going to miss you though!
 `
